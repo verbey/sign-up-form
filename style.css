@@ -1,0 +1,259 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@font-face {
+	font-family: "GrandHotelRegular";
+	src: url("/fonts/GrandHotel-Regular.otf");
+}
+
+html,
+body,
+.container {
+	min-height: 100vh;
+}
+
+.container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo {
+	color: #637C87;
+	font-family: "GrandHotelRegular", sans-serif;
+	font-size: 12rem;
+}
+
+.logoImg {
+	height: 19vh;
+	width: auto;
+}
+
+.logoCont {
+	width: 40vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20vh;
+	background: rgba(0, 0, 0, 0.25);
+}
+
+.background {
+	background-image: url("/images/background.jpg");
+	background-size: cover;
+}
+
+.rightPart {
+	background: #EDFAFF;
+	font-family: sans-serif;
+	font-weight: 550;
+	padding: 15vh 3vw;
+	display: flex;
+	flex-direction: column;
+	gap: 4vh
+}
+
+p {
+	font-size: 4vh;
+}
+
+label {
+	color: #637c87;
+	font-size: 2.2vh;
+}
+
+.form {
+	box-shadow: 0px 2px 10px 2px #4A3F49;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	gap: 2vh;
+	padding: 2vh 1vw;
+}
+
+form {
+	height: 20vh;
+}
+
+label {
+	padding-top: 2vh;
+	width: 12vw;
+}
+
+input {
+	width: 12vw;
+	height: 2vh;
+}
+
+input:invalid {
+	border: solid 2px #ff2929;
+}
+
+input:valid {
+	border: solid 2px #1db343
+}
+
+input:focus {
+	outline: none;
+}
+
+button {
+	background: #637c87;
+	color: #FFFFFF;
+	display: block;
+	font-size: 2.2vh;
+	;
+	margin-top: 1vh;
+	border-radius: 0.4rem;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+button:focus {
+	background: #4E626B;
+	margin-top: 1vh 0 0 0;
+}
+
+.formFlex {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	height: 16vh;
+}
+
+a {
+	color: #637c87;
+}
+
+a:visited {
+	color: #637c87;
+}
